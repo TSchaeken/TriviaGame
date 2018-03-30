@@ -1,0 +1,23 @@
+#trivia-header {
+    font-family: 'Playfair Display SC', Helvetica, sans-serif;
+    background-color: #F8F5E7;
+    color:#2E305F;
+}
+
+.jumbotron {
+    background-color:transparent;
+}
+
+
+.body-text {
+    font-family: 'Montserrat', Arial
+}
+
+hr {
+    background-color:#2E305F;
+    border-width: 5px;
+}
+
+body {
+    background-color:#F8F5E7;
+}
