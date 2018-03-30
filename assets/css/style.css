@@ -4,6 +4,20 @@
     color:#2E305F;
 }
 
+#trivia-form {
+    display:none;
+}
+
+#foot-container {
+    Font-size:2em;
+}
+
+
+
+.game-border {
+    border-left:5px #2E305F solid;
+}
+
 .jumbotron {
     background-color:transparent;
 }
@@ -13,6 +27,16 @@
     font-family: 'Montserrat', Arial
 }
 
+.btn-block {
+    margin-top:50px;
+}
+
+/* .footer {
+    position:fixed;
+    height:100px;
+    bottom:0;
+    width:100%;
+} */
 hr {
     background-color:#2E305F;
     border-width: 5px;

@@ -16,8 +16,9 @@
 
     <div id="trivia-header">
         <div class="jumbotron">
-            <h1 class="display-4">Ridiculously Hard Trivia</h1>
-            <p class="lead body-text">You will have to google the questions, but do so fast! You only have ten minutes to answer ten questions!</p>
+            <h1 class="display-4">Ridiculous Trivia</h1>
+            <p class="lead body-text">You will have to google the questions, but do so fast! You only have three minutes to answer ten questions!</p>
+            <p class="lead body-text">Press submit when you feel like you have the right answers!</p>
             <hr class="my-4">
             <p></p>
             <p class="lead">
@@ -25,15 +26,64 @@
             </p>
         </div>
     </div>
-
-    <div class="container" id="game-container">
-        <div class="row question-row">
-            <div class="col-12" id="question-row"></div>
+    <form id="trivia-form">
+        <div class="container" id="game-container">
+            <div class="row question-row">
+                <h2>Question 1</h2>
+                <div class="col-12">What is the 4th digit in Amedeo Avogadro's constant?
+                </div>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">5</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input correctAnswer" type="radio" name="inlineRadioOptions1" id="CorrectAnswer" value="option2">
+                <label class="form-check-label" for="inlineRadio2">2</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions1"  value="option3">
+                <label class="form-check-label" for="inlineRadio3">4</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions1" value="option4">
+                <label class="form-check-label" for="inlineRadio3">7</label>
+            </div>
+            <div class="row question-row">
+                <h2>Question 2</h2>
+                <div class="col-12">What Reynolds number signifies the change from laminar to turbulent transition on a plate?
+                </div>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions2" value="option1">
+                <label class="form-check-label" for="inlineRadio5">50</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions2" value="option2">
+                <label class="form-check-label" for="inlineRadio6">500</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions2" value="option3">
+                <label class="form-check-label" for="inlineRadio7">5000</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions2" value="option4" id="CorrectAnswer">
+                <label class="form-check-label" for="inlineRadio8">50000</label>
+            </div>
         </div>
-    </div>
+
+        <div class="container">
+            <button type="button" id="submitBtn" class="btn btn-outline-primary btn-block">Submit</button>
+        </div>
+
+    </form>
 
 
-
+    <footer class="footer fixed-bottom">
+        <div class="container-fluid" id="foot-container">
+            <span id="time-remaining" class="float-right"></span>
+        </div>
+    </footer>
 
 
 
