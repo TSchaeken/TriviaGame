@@ -11,6 +11,8 @@ var gameData = {
                 this.score++
             }
         }
+
+        $("#time-remaining").text("Your final score is "+this.score+"/10");
     }
 }
 
